@@ -1,1 +1,44 @@
-/* You can add global styles to this file, and also import other style files */
+@import "_variables";
+
+// importing the project fonts
+@import url("https://use.typekit.net/hwr7jql.css");
+@font-face {
+  font-family: filson-pro;
+  src: url("https://use.typekit.net/hwr7jql.css");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: filson-soft;
+  src: url("https://use.typekit.net/hwr7jql.css");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  min-height: 100vh;
+  background: 
+    radial-gradient(ellipse at bottom, #140f3a, #302b63);
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  * {
+    font-family: filson-pro;
+  }
+}
+
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+.fw-semibold {
+  font-weight: 600 !important;
+}
+.fw-black {
+  font-weight: 900;
+}
+
+.card-blur {
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(15px);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
