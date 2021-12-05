@@ -20,6 +20,6 @@ export class AppComponent implements OnInit {
   }
 
   joinServer() {
-    this.router.navigateByUrl('https://discord.gg/J3tvqde');
+    window.open("https://discord.gg/J3tvqde", "_blank");
   }
 }
