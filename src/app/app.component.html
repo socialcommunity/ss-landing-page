@@ -41,9 +41,9 @@
                 </div>
               </div>
               <div class="row mt-4">
-                <div class="col-auto d-grid gap-2">
+                <div class="col-6 d-grid gap-2">
                   <button
-                    class="btn btn-lg btn-ss-yellow tilt"
+                    class="btn btn-lg btn-discord tilt"
                     style="transform: translateZ(20px)"
                     data-tilt
                     data-tilt-reverse="true"
@@ -51,7 +51,19 @@
                     data-tilt-glare data-tilt-max-glare="0.1"
                     data-tilt-max="10"
                     (click)="joinServer()"
-                    >Entrar no Server</button>
+                    ><i class="bi bi-discord"></i> Discord</button>
+                </div>
+                <div class="col-6 d-grid gap-2">
+                  <button
+                    class="btn btn-lg btn-telegram tilt text-white"
+                    style="transform: translateZ(20px)"
+                    data-tilt
+                    data-tilt-reverse="true"
+                    data-tilt-scale="1.05"
+                    data-tilt-glare data-tilt-max-glare="0.1"
+                    data-tilt-max="10"
+                    (click)="joinTelegram()"
+                    ><i class="bi bi-telegram"></i> Telegram</button>
                 </div>
               </div>
             </div>

@@ -2,8 +2,13 @@ $ss-yellow: #FFC900;
 $ss-blue: #00FFFF;
 $ss-pink: #FF00FF;
 
+$discord: #5662F6;
+$telegram: #3E94CC;
+
 $theme-colors: (
   'ss-yellow': $ss-yellow,
   'ss-blue': $ss-blue,
-  'ss-pink': $ss-pink 
+  'ss-pink': $ss-pink,
+  'discord': $discord,
+  'telegram': $telegram,
 );

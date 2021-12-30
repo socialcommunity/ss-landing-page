@@ -22,4 +22,8 @@ export class AppComponent implements OnInit {
   joinServer() {
     window.open("https://discord.gg/J3tvqde", "_blank");
   }
+
+  joinTelegram() {
+    window.open("https://t.me/+ErpjhL2Rz7c2M2Jh", "_blank");
+  }
 }
